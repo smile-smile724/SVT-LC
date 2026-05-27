@@ -1,0 +1,63 @@
+{
+  "schemaVersion": "0.1.0",
+  "sceneId": "demo-scene",
+  "createdAt": "2026-04-27T13:55:20.598Z",
+  "partition": {
+    "mode": "aabb-grid",
+    "blockCount": 2
+  },
+  "blocks": [
+    {
+      "blockId": "block_0001",
+      "bbox": [
+        -3.0000003576278687,
+        -1,
+        -1.0000003576278687,
+        -0.9999995231628418,
+        1,
+        1.0000005960464478
+      ],
+      "center": [
+        -1.9999999403953552,
+        0,
+        1.1920928955078125e-7
+      ],
+      "bytes": {
+        "coarse": 1220
+      },
+      "layers": {
+        "coarse": "block_0001/coarse/lod1.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0001/sem/sem.json",
+        "thumbUris": []
+      }
+    },
+    {
+      "blockId": "block_0002",
+      "bbox": [
+        0.9999996423721313,
+        -1,
+        -1.0000003576278687,
+        3.000000476837158,
+        1,
+        1.0000005960464478
+      ],
+      "center": [
+        2.0000000596046448,
+        0,
+        1.1920928955078125e-7
+      ],
+      "bytes": {
+        "coarse": 1216
+      },
+      "layers": {
+        "coarse": "block_0002/coarse/lod1.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0002/sem/sem.json",
+        "thumbUris": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "sceneId": "medium-scene",
+  "rawScenePath": "../../scenes/raw/large-model.glb",
+  "outputRoot": "scenes/processed/medium-scene",
+  "publicMirrorRoot": "packages/web-client/public/scenes/medium-scene",
+  "partitionMode": "aabb-grid",
+  "gridDivisions": [2, 2, 1],
+  "generateSemanticPlaceholders": true
+}

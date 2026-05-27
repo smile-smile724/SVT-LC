@@ -1,0 +1,19 @@
+{
+  "name": "@mtweb/web-client",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit -p tsconfig.json && vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "@mtweb/shared-contracts": "file:../shared-contracts",
+    "three": "file:../../../references/open_source_projects/rendering/three.js",
+    "three-mesh-bvh": "file:../../../references/open_source_projects/pipeline/three-mesh-bvh"
+  },
+  "devDependencies": {
+    "@types/three": "^0.179.0"
+  }
+}

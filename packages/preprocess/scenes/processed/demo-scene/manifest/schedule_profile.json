@@ -1,0 +1,9 @@
+{
+  "sceneId": "demo-scene",
+  "createdAt": "2026-04-27T13:55:20.601Z",
+  "defaults": {
+    "sfBias": 0.65,
+    "eeBias": 0.55,
+    "frBias": 0.45
+  }
+}

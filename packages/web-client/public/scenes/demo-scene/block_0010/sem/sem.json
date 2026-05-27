@@ -1,0 +1,42 @@
+{
+  "blockId": "block_0010",
+  "bbox": [
+    -3,
+    -1,
+    2,
+    -1,
+    1,
+    4
+  ],
+  "labels": [
+    {
+      "name": "wall",
+      "score": 0.42
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0,
+        0,
+        1,
+        0.3
+      ],
+      "score": 0.38
+    }
+  ],
+  "thumbs": [
+    "block_0010/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.4,
+  "lods": {
+    "coarse": "block_0010/coarse/lod1.glb",
+    "residual": [
+      "block_0010/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 2684,
+    "residual": 1908
+  }
+}

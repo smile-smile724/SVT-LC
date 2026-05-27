@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0001",
+  "bbox": [
+    -3,
+    -1,
+    -4,
+    -1,
+    1,
+    -2
+  ],
+  "labels": [
+    {
+      "name": "building",
+      "score": 0.91
+    },
+    {
+      "name": "wall",
+      "score": 0.78
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.1,
+        0.1,
+        0.6,
+        0.7
+      ],
+      "score": 0.88
+    }
+  ],
+  "thumbs": [
+    "block_0001/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.92,
+  "lods": {
+    "coarse": "block_0001/coarse/lod1.glb",
+    "residual": [
+      "block_0001/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 10004,
+    "residual": 6890
+  }
+}

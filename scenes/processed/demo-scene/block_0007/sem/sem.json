@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0007",
+  "bbox": [
+    -3,
+    -1,
+    0,
+    -1,
+    1,
+    2
+  ],
+  "labels": [
+    {
+      "name": "stair",
+      "score": 0.58
+    },
+    {
+      "name": "step",
+      "score": 0.48
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.2,
+        0.3,
+        0.7,
+        0.9
+      ],
+      "score": 0.53
+    }
+  ],
+  "thumbs": [
+    "block_0007/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.55,
+  "lods": {
+    "coarse": "block_0007/coarse/lod1.glb",
+    "residual": [
+      "block_0007/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 4148,
+    "residual": 2862
+  }
+}

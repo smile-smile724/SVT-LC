@@ -1,0 +1,32 @@
+{
+  "blockId": "block_0012",
+  "bbox": [
+    1,
+    -1,
+    2,
+    3,
+    1,
+    4
+  ],
+  "labels": [
+    {
+      "name": "background",
+      "score": 0.31
+    }
+  ],
+  "saliency": [],
+  "thumbs": [
+    "block_0012/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.3,
+  "lods": {
+    "coarse": "block_0012/coarse/lod1.glb",
+    "residual": [
+      "block_0012/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 1708,
+    "residual": 1272
+  }
+}

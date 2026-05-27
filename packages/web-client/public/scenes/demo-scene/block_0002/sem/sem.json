@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0002",
+  "bbox": [
+    -1,
+    -1,
+    -4,
+    1,
+    1,
+    -2
+  ],
+  "labels": [
+    {
+      "name": "door",
+      "score": 0.87
+    },
+    {
+      "name": "frame",
+      "score": 0.72
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.2,
+        0.15,
+        0.55,
+        0.8
+      ],
+      "score": 0.82
+    }
+  ],
+  "thumbs": [
+    "block_0002/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.85,
+  "lods": {
+    "coarse": "block_0002/coarse/lod1.glb",
+    "residual": [
+      "block_0002/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 8296,
+    "residual": 5724
+  }
+}

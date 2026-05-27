@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0009",
+  "bbox": [
+    1,
+    -1,
+    0,
+    3,
+    1,
+    2
+  ],
+  "labels": [
+    {
+      "name": "pipe",
+      "score": 0.47
+    },
+    {
+      "name": "duct",
+      "score": 0.4
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.5
+      ],
+      "score": 0.43
+    }
+  ],
+  "thumbs": [
+    "block_0009/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.45,
+  "lods": {
+    "coarse": "block_0009/coarse/lod1.glb",
+    "residual": [
+      "block_0009/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 3172,
+    "residual": 2226
+  }
+}

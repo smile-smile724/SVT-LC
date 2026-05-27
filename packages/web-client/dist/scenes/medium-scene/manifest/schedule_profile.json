@@ -1,0 +1,9 @@
+{
+  "sceneId": "medium-scene",
+  "createdAt": "2026-05-09T14:25:31.013Z",
+  "defaults": {
+    "sfBias": 0.65,
+    "eeBias": 0.55,
+    "frBias": 0.45
+  }
+}

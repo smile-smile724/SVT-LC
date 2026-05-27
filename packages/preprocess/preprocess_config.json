@@ -1,0 +1,9 @@
+{
+  "sceneId": "large-scene-97mb",
+  "rawScenePath": "./scenes/raw/large-model.glb",
+  "outputRoot": "packages/preprocess/scenes/processed/large-scene-97mb",
+  "publicMirrorRoot": "packages/web-client/public/scenes/large-scene-97mb",
+  "partitionMode": "aabb-grid",
+  "gridDivisions": [2, 2, 2],
+  "generateSemanticPlaceholders": true
+}

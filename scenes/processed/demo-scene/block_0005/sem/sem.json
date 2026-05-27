@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0005",
+  "bbox": [
+    -1,
+    -1,
+    -2,
+    1,
+    1,
+    0
+  ],
+  "labels": [
+    {
+      "name": "floor",
+      "score": 0.7
+    },
+    {
+      "name": "tile",
+      "score": 0.55
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.05,
+        0.05,
+        0.9,
+        0.4
+      ],
+      "score": 0.62
+    }
+  ],
+  "thumbs": [
+    "block_0005/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.65,
+  "lods": {
+    "coarse": "block_0005/coarse/lod1.glb",
+    "residual": [
+      "block_0005/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 5124,
+    "residual": 3498
+  }
+}

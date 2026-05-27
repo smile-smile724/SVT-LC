@@ -1,0 +1,9 @@
+{
+  "sceneId": "large-scene-97mb",
+  "createdAt": "2026-05-09T14:39:18.880Z",
+  "defaults": {
+    "sfBias": 0.65,
+    "eeBias": 0.55,
+    "frBias": 0.45
+  }
+}

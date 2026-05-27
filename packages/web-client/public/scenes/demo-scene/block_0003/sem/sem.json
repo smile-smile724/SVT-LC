@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0003",
+  "bbox": [
+    1,
+    -1,
+    -4,
+    3,
+    1,
+    -2
+  ],
+  "labels": [
+    {
+      "name": "window",
+      "score": 0.8
+    },
+    {
+      "name": "glass",
+      "score": 0.65
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.15,
+        0.2,
+        0.5,
+        0.75
+      ],
+      "score": 0.76
+    }
+  ],
+  "thumbs": [
+    "block_0003/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.78,
+  "lods": {
+    "coarse": "block_0003/coarse/lod1.glb",
+    "residual": [
+      "block_0003/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 6710,
+    "residual": 4452
+  }
+}

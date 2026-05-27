@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0006",
+  "bbox": [
+    1,
+    -1,
+    -2,
+    3,
+    1,
+    0
+  ],
+  "labels": [
+    {
+      "name": "ceiling",
+      "score": 0.63
+    },
+    {
+      "name": "beam",
+      "score": 0.52
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.1,
+        0.6,
+        0.85,
+        0.95
+      ],
+      "score": 0.58
+    }
+  ],
+  "thumbs": [
+    "block_0006/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.6,
+  "lods": {
+    "coarse": "block_0006/coarse/lod1.glb",
+    "residual": [
+      "block_0006/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 4636,
+    "residual": 3180
+  }
+}

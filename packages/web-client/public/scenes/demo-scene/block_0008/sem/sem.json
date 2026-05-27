@@ -1,0 +1,42 @@
+{
+  "blockId": "block_0008",
+  "bbox": [
+    -1,
+    -1,
+    0,
+    1,
+    1,
+    2
+  ],
+  "labels": [
+    {
+      "name": "furniture",
+      "score": 0.52
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.25,
+        0.2,
+        0.65,
+        0.75
+      ],
+      "score": 0.48
+    }
+  ],
+  "thumbs": [
+    "block_0008/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.5,
+  "lods": {
+    "coarse": "block_0008/coarse/lod1.glb",
+    "residual": [
+      "block_0008/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 3660,
+    "residual": 2544
+  }
+}

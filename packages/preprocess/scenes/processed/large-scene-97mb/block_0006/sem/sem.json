@@ -1,0 +1,27 @@
+{
+  "blockId": "block_0006",
+  "bbox": [
+    19.06121826171875,
+    -0.9972123503684998,
+    19.0090274810791,
+    36.49226379394531,
+    16.495162963867188,
+    36.47471618652344
+  ],
+  "labels": [],
+  "saliency": [],
+  "thumbs": [
+    "block_0006/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.95,
+  "lods": {
+    "coarse": "block_0006/coarse/lod1.glb",
+    "residual": [
+      "block_0006/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 8141536,
+    "residual": 4755488
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "blockId": "block_0002",
+  "bbox": [
+    0.9999996423721313,
+    -1,
+    -1.0000003576278687,
+    3.000000476837158,
+    1,
+    1.0000005960464478
+  ],
+  "labels": [],
+  "saliency": [],
+  "thumbs": [],
+  "semanticScore": 0.55,
+  "lods": {
+    "coarse": "block_0002/coarse/lod1.glb"
+  },
+  "bytes": {
+    "coarse": 1216
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "mtweb-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/shared-contracts",
+    "packages/preprocess",
+    "packages/web-client",
+    "packages/scheduler-service",
+    "packages/edge-service"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace @mtweb/web-client run dev --",
+    "build:web": "npm --workspace @mtweb/web-client run build",
+    "preview": "npm --workspace @mtweb/web-client run preview",
+    "typecheck:contracts": "npm --workspace @mtweb/shared-contracts run build",
+    "typecheck:preprocess": "npm --workspace @mtweb/preprocess run build",
+    "dev:preprocess": "npm --workspace @mtweb/preprocess run dev --",
+    "preprocess:demo": "npm --workspace @mtweb/preprocess run dev -- --config scripts/preprocess/demo-scene.json",
+    "preprocess:medium": "npm --workspace @mtweb/preprocess run dev -- --config scripts/preprocess/medium-scene.json",
+    "preprocess:large": "npm --workspace @mtweb/preprocess run dev -- --config scripts/preprocess/large-scene-97mb.json",
+    "dev:scheduler": "npm --workspace @mtweb/scheduler-service run dev",
+    "build:scheduler": "npm --workspace @mtweb/scheduler-service run build",
+    "dev:edge": "npm --workspace @mtweb/edge-service run dev",
+    "build:edge": "npm --workspace @mtweb/edge-service run build",
+    "build": "npm run typecheck:contracts && npm run typecheck:preprocess && npm run build:scheduler && npm run build:edge && npm run build:web",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "experiment:run": "python experiments/run_experiment.py",
+    "experiment:run:fast": "python experiments/run_experiment.py --fast",
+    "experiment:analyze": "python experiments/analyzer.py"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "@vitest/coverage-v8": "^4.1.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vitest": "^4.1.5"
+  }
+}

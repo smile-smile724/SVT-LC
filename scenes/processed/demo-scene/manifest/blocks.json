@@ -1,0 +1,371 @@
+{
+  "schemaVersion": "0.1.0",
+  "sceneId": "demo-scene",
+  "createdAt": "2026-05-15T02:23:49.022Z",
+  "partition": {
+    "mode": "aabb-grid",
+    "blockCount": 12
+  },
+  "blocks": [
+    {
+      "blockId": "block_0001",
+      "bbox": [
+        -3,
+        -1,
+        -4,
+        -1,
+        1,
+        -2
+      ],
+      "center": [
+        -2,
+        0,
+        -3
+      ],
+      "bytes": {
+        "coarse": 10004,
+        "residual": 6890
+      },
+      "layers": {
+        "coarse": "block_0001/coarse/lod1.glb",
+        "residual": "block_0001/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0001/sem/sem.json",
+        "thumbUris": [
+          "block_0001/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0002",
+      "bbox": [
+        -1,
+        -1,
+        -4,
+        1,
+        1,
+        -2
+      ],
+      "center": [
+        0,
+        0,
+        -3
+      ],
+      "bytes": {
+        "coarse": 8296,
+        "residual": 5724
+      },
+      "layers": {
+        "coarse": "block_0002/coarse/lod1.glb",
+        "residual": "block_0002/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0002/sem/sem.json",
+        "thumbUris": [
+          "block_0002/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0003",
+      "bbox": [
+        1,
+        -1,
+        -4,
+        3,
+        1,
+        -2
+      ],
+      "center": [
+        2,
+        0,
+        -3
+      ],
+      "bytes": {
+        "coarse": 6710,
+        "residual": 4452
+      },
+      "layers": {
+        "coarse": "block_0003/coarse/lod1.glb",
+        "residual": "block_0003/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0003/sem/sem.json",
+        "thumbUris": [
+          "block_0003/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0004",
+      "bbox": [
+        -3,
+        -1,
+        -2,
+        -1,
+        1,
+        0
+      ],
+      "center": [
+        -2,
+        0,
+        -1
+      ],
+      "bytes": {
+        "coarse": 5856,
+        "residual": 4028
+      },
+      "layers": {
+        "coarse": "block_0004/coarse/lod1.glb",
+        "residual": "block_0004/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0004/sem/sem.json",
+        "thumbUris": [
+          "block_0004/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0005",
+      "bbox": [
+        -1,
+        -1,
+        -2,
+        1,
+        1,
+        0
+      ],
+      "center": [
+        0,
+        0,
+        -1
+      ],
+      "bytes": {
+        "coarse": 5124,
+        "residual": 3498
+      },
+      "layers": {
+        "coarse": "block_0005/coarse/lod1.glb",
+        "residual": "block_0005/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0005/sem/sem.json",
+        "thumbUris": [
+          "block_0005/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0006",
+      "bbox": [
+        1,
+        -1,
+        -2,
+        3,
+        1,
+        0
+      ],
+      "center": [
+        2,
+        0,
+        -1
+      ],
+      "bytes": {
+        "coarse": 4636,
+        "residual": 3180
+      },
+      "layers": {
+        "coarse": "block_0006/coarse/lod1.glb",
+        "residual": "block_0006/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0006/sem/sem.json",
+        "thumbUris": [
+          "block_0006/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0007",
+      "bbox": [
+        -3,
+        -1,
+        0,
+        -1,
+        1,
+        2
+      ],
+      "center": [
+        -2,
+        0,
+        1
+      ],
+      "bytes": {
+        "coarse": 4148,
+        "residual": 2862
+      },
+      "layers": {
+        "coarse": "block_0007/coarse/lod1.glb",
+        "residual": "block_0007/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0007/sem/sem.json",
+        "thumbUris": [
+          "block_0007/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0008",
+      "bbox": [
+        -1,
+        -1,
+        0,
+        1,
+        1,
+        2
+      ],
+      "center": [
+        0,
+        0,
+        1
+      ],
+      "bytes": {
+        "coarse": 3660,
+        "residual": 2544
+      },
+      "layers": {
+        "coarse": "block_0008/coarse/lod1.glb",
+        "residual": "block_0008/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0008/sem/sem.json",
+        "thumbUris": [
+          "block_0008/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0009",
+      "bbox": [
+        1,
+        -1,
+        0,
+        3,
+        1,
+        2
+      ],
+      "center": [
+        2,
+        0,
+        1
+      ],
+      "bytes": {
+        "coarse": 3172,
+        "residual": 2226
+      },
+      "layers": {
+        "coarse": "block_0009/coarse/lod1.glb",
+        "residual": "block_0009/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0009/sem/sem.json",
+        "thumbUris": [
+          "block_0009/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0010",
+      "bbox": [
+        -3,
+        -1,
+        2,
+        -1,
+        1,
+        4
+      ],
+      "center": [
+        -2,
+        0,
+        3
+      ],
+      "bytes": {
+        "coarse": 2684,
+        "residual": 1908
+      },
+      "layers": {
+        "coarse": "block_0010/coarse/lod1.glb",
+        "residual": "block_0010/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0010/sem/sem.json",
+        "thumbUris": [
+          "block_0010/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0011",
+      "bbox": [
+        -1,
+        -1,
+        2,
+        1,
+        1,
+        4
+      ],
+      "center": [
+        0,
+        0,
+        3
+      ],
+      "bytes": {
+        "coarse": 2196,
+        "residual": 1590
+      },
+      "layers": {
+        "coarse": "block_0011/coarse/lod1.glb",
+        "residual": "block_0011/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0011/sem/sem.json",
+        "thumbUris": [
+          "block_0011/sem/thumb_0.webp"
+        ]
+      }
+    },
+    {
+      "blockId": "block_0012",
+      "bbox": [
+        1,
+        -1,
+        2,
+        3,
+        1,
+        4
+      ],
+      "center": [
+        2,
+        0,
+        3
+      ],
+      "bytes": {
+        "coarse": 1708,
+        "residual": 1272
+      },
+      "layers": {
+        "coarse": "block_0012/coarse/lod1.glb",
+        "residual": "block_0012/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0012/sem/sem.json",
+        "thumbUris": [
+          "block_0012/sem/thumb_0.webp"
+        ]
+      }
+    }
+  ]
+}

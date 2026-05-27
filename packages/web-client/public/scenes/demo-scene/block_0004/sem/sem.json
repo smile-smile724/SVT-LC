@@ -1,0 +1,46 @@
+{
+  "blockId": "block_0004",
+  "bbox": [
+    -3,
+    -1,
+    -2,
+    -1,
+    1,
+    0
+  ],
+  "labels": [
+    {
+      "name": "column",
+      "score": 0.74
+    },
+    {
+      "name": "pillar",
+      "score": 0.68
+    }
+  ],
+  "saliency": [
+    {
+      "bbox": [
+        0.3,
+        0.1,
+        0.65,
+        0.85
+      ],
+      "score": 0.7
+    }
+  ],
+  "thumbs": [
+    "block_0004/sem/thumb_0.webp"
+  ],
+  "semanticScore": 0.71,
+  "lods": {
+    "coarse": "block_0004/coarse/lod1.glb",
+    "residual": [
+      "block_0004/residual/lod2.glb"
+    ]
+  },
+  "bytes": {
+    "coarse": 5856,
+    "residual": 4028
+  }
+}

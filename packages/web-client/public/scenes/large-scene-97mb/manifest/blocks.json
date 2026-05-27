@@ -1,0 +1,467 @@
+{
+  "schemaVersion": "0.1.0",
+  "sceneId": "large-scene-97mb",
+  "createdAt": "2026-05-09T14:39:18.876Z",
+  "partition": {
+    "mode": "aabb-grid",
+    "blockCount": 8
+  },
+  "blocks": [
+    {
+      "blockId": "block_0001",
+      "bbox": [
+        -0.99517422914505,
+        -0.9940757751464844,
+        -0.9483595490455627,
+        16.4856014251709,
+        16.49186897277832,
+        16.478412628173828
+      ],
+      "center": [
+        7.745213598012924,
+        7.748896598815918,
+        7.765026539564133
+      ],
+      "bytes": {
+        "coarse": 8141456,
+        "residual": 4755476
+      },
+      "layers": {
+        "coarse": "block_0001/coarse/lod1.glb",
+        "residual": "block_0001/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0001/sem/sem.json",
+        "thumbUris": [
+          "block_0001/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0001",
+          "bbox": [
+            -0.99517422914505,
+            -0.9940757751464844,
+            -0.9483595490455627,
+            16.4856014251709,
+            16.49186897277832,
+            16.478412628173828
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0001/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0001/coarse/lod1.glb",
+            "residual": [
+              "block_0001/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141456,
+            "residual": 4755476
+          }
+        }
+      }
+    },
+    {
+      "blockId": "block_0002",
+      "bbox": [
+        -0.9248551726341248,
+        -0.9660711288452148,
+        19.031253814697266,
+        16.46360206604004,
+        16.46247673034668,
+        36.43166732788086
+      ],
+      "center": [
+        7.769373446702957,
+        7.748202800750732,
+        27.731460571289062
+      ],
+      "bytes": {
+        "coarse": 8141468,
+        "residual": 4755476
+      },
+      "layers": {
+        "coarse": "block_0002/coarse/lod1.glb",
+        "residual": "block_0002/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0002/sem/sem.json",
+        "thumbUris": [
+          "block_0002/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0002",
+          "bbox": [
+            -0.9248551726341248,
+            -0.9660711288452148,
+            19.031253814697266,
+            16.46360206604004,
+            16.46247673034668,
+            36.43166732788086
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0002/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0002/coarse/lod1.glb",
+            "residual": [
+              "block_0002/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141468,
+            "residual": 4755476
+          }
+        }
+      }
+    },
+    {
+      "blockId": "block_0003",
+      "bbox": [
+        -0.8520187139511108,
+        19.006439208984375,
+        -0.9887104034423828,
+        16.377866744995117,
+        36.49709701538086,
+        16.494178771972656
+      ],
+      "center": [
+        7.762924015522003,
+        27.751768112182617,
+        7.752734184265137
+      ],
+      "bytes": {
+        "coarse": 8141504,
+        "residual": 4755496
+      },
+      "layers": {
+        "coarse": "block_0003/coarse/lod1.glb",
+        "residual": "block_0003/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0003/sem/sem.json",
+        "thumbUris": [
+          "block_0003/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0003",
+          "bbox": [
+            -0.8520187139511108,
+            19.006439208984375,
+            -0.9887104034423828,
+            16.377866744995117,
+            36.49709701538086,
+            16.494178771972656
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0003/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0003/coarse/lod1.glb",
+            "residual": [
+              "block_0003/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141504,
+            "residual": 4755496
+          }
+        }
+      }
+    },
+    {
+      "blockId": "block_0004",
+      "bbox": [
+        -0.9976533651351929,
+        19.019290924072266,
+        19.002840042114258,
+        16.48792266845703,
+        36.47799301147461,
+        36.47519302368164
+      ],
+      "center": [
+        7.745134651660919,
+        27.748641967773438,
+        27.73901653289795
+      ],
+      "bytes": {
+        "coarse": 8141492,
+        "residual": 4755488
+      },
+      "layers": {
+        "coarse": "block_0004/coarse/lod1.glb",
+        "residual": "block_0004/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0004/sem/sem.json",
+        "thumbUris": [
+          "block_0004/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0004",
+          "bbox": [
+            -0.9976533651351929,
+            19.019290924072266,
+            19.002840042114258,
+            16.48792266845703,
+            36.47799301147461,
+            36.47519302368164
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0004/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0004/coarse/lod1.glb",
+            "residual": [
+              "block_0004/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141492,
+            "residual": 4755488
+          }
+        }
+      }
+    },
+    {
+      "blockId": "block_0005",
+      "bbox": [
+        19.01320457458496,
+        -0.9821594953536987,
+        -0.9781522154808044,
+        36.4941520690918,
+        16.479177474975586,
+        16.491857528686523
+      ],
+      "center": [
+        27.75367832183838,
+        7.748508989810944,
+        7.7568526566028595
+      ],
+      "bytes": {
+        "coarse": 8141540,
+        "residual": 4755528
+      },
+      "layers": {
+        "coarse": "block_0005/coarse/lod1.glb",
+        "residual": "block_0005/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0005/sem/sem.json",
+        "thumbUris": [
+          "block_0005/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0005",
+          "bbox": [
+            19.01320457458496,
+            -0.9821594953536987,
+            -0.9781522154808044,
+            36.4941520690918,
+            16.479177474975586,
+            16.491857528686523
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0005/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0005/coarse/lod1.glb",
+            "residual": [
+              "block_0005/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141540,
+            "residual": 4755528
+          }
+        }
+      }
+    },
+    {
+      "blockId": "block_0006",
+      "bbox": [
+        19.06121826171875,
+        -0.9972123503684998,
+        19.0090274810791,
+        36.49226379394531,
+        16.495162963867188,
+        36.47471618652344
+      ],
+      "center": [
+        27.77674102783203,
+        7.748975306749344,
+        27.74187183380127
+      ],
+      "bytes": {
+        "coarse": 8141536,
+        "residual": 4755488
+      },
+      "layers": {
+        "coarse": "block_0006/coarse/lod1.glb",
+        "residual": "block_0006/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0006/sem/sem.json",
+        "thumbUris": [
+          "block_0006/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0006",
+          "bbox": [
+            19.06121826171875,
+            -0.9972123503684998,
+            19.0090274810791,
+            36.49226379394531,
+            16.495162963867188,
+            36.47471618652344
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0006/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0006/coarse/lod1.glb",
+            "residual": [
+              "block_0006/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141536,
+            "residual": 4755488
+          }
+        }
+      }
+    },
+    {
+      "blockId": "block_0007",
+      "bbox": [
+        19.012460708618164,
+        19.05427360534668,
+        -0.9425155520439148,
+        36.49721908569336,
+        36.4850959777832,
+        16.495872497558594
+      ],
+      "center": [
+        27.75483989715576,
+        27.76968479156494,
+        7.7766784727573395
+      ],
+      "bytes": {
+        "coarse": 8141524,
+        "residual": 4755528
+      },
+      "layers": {
+        "coarse": "block_0007/coarse/lod1.glb",
+        "residual": "block_0007/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0007/sem/sem.json",
+        "thumbUris": [
+          "block_0007/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0007",
+          "bbox": [
+            19.012460708618164,
+            19.05427360534668,
+            -0.9425155520439148,
+            36.49721908569336,
+            36.4850959777832,
+            16.495872497558594
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0007/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0007/coarse/lod1.glb",
+            "residual": [
+              "block_0007/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141524,
+            "residual": 4755528
+          }
+        }
+      }
+    },
+    {
+      "blockId": "block_0008",
+      "bbox": [
+        19.029905319213867,
+        19.075565338134766,
+        19.123777389526367,
+        36.44432830810547,
+        36.481109619140625,
+        36.45392990112305
+      ],
+      "center": [
+        27.737116813659668,
+        27.778337478637695,
+        27.788853645324707
+      ],
+      "bytes": {
+        "coarse": 8141492,
+        "residual": 4755508
+      },
+      "layers": {
+        "coarse": "block_0008/coarse/lod1.glb",
+        "residual": "block_0008/residual/lod2.glb"
+      },
+      "semantic": {
+        "manifestUri": "block_0008/sem/sem.json",
+        "thumbUris": [
+          "block_0008/sem/thumb_0.webp"
+        ],
+        "data": {
+          "blockId": "block_0008",
+          "bbox": [
+            19.029905319213867,
+            19.075565338134766,
+            19.123777389526367,
+            36.44432830810547,
+            36.481109619140625,
+            36.45392990112305
+          ],
+          "labels": [],
+          "saliency": [],
+          "thumbs": [
+            "block_0008/sem/thumb_0.webp"
+          ],
+          "semanticScore": 0.95,
+          "lods": {
+            "coarse": "block_0008/coarse/lod1.glb",
+            "residual": [
+              "block_0008/residual/lod2.glb"
+            ]
+          },
+          "bytes": {
+            "coarse": 8141492,
+            "residual": 4755508
+          }
+        }
+      }
+    }
+  ]
+}

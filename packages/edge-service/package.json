@@ -1,0 +1,13 @@
+{
+  "name": "@mtweb/edge-service",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc --noEmit -p tsconfig.json"
+  },
+  "dependencies": {
+    "@mtweb/shared-contracts": "file:../shared-contracts"
+  }
+}

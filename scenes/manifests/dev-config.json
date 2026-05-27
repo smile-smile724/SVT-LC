@@ -1,0 +1,13 @@
+{
+  "sceneId": "demo-scene",
+  "rawScenePath": "../raw/demo-scene.glb",
+  "outputRoot": "./scenes/processed/demo-scene",
+  "publicMirrorRoot": "./packages/web-client/public/scenes/demo-scene",
+  "partitionMode": "aabb-grid",
+  "gridDivisions": [
+    2,
+    1,
+    1
+  ],
+  "generateSemanticPlaceholders": true
+}
