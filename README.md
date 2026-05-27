@@ -1,19 +1,3 @@
-# mtweb-system
-
-`mtweb-system` is the primary workspace for implementing the Semantic-MT-Web3D paper ideas.
-
-## Workspace Layout
-
-- `packages/shared-contracts`: shared schemas and TypeScript contracts.
-- `packages/preprocess`: scene partitioning and offline asset pipeline.
-- `packages/web-client`: browser runtime built on three.js.
-- `packages/scheduler-service`: latency-aware scheduling service.
-- `packages/semantic-service`: Python service for semantic prototype extraction.
-- `packages/edge-service`: notes and placeholders for edge cache integration.
-- `scenes/raw`: source scenes.
-- `scenes/processed`: generated block assets.
-- `scenes/manifests`: scene-level manifests.
-
 ## First Start
 
 ```bash
